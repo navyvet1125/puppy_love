@@ -1,6 +1,44 @@
 body {
-	background: url("biscuits.jpg");
+	background: url("../biscuits.jpg");
+	background-repeat: fixed;
 }
-p{
-	color:red;
+
+#dog_header {
+	background: #caffed;
+	text-align: center;
+	
+}
+
+#dog_header h1{
+	font-size: 350%;
+}
+#dog_header h2 {
+	font-size: 200%;
+}
+#dog_header p{
+	font-size: 150%;
+}
+
+#dog_likes{
+	background: #8f5;
+}
+
+#dog_likes h2{
+	text-decoration: underline;
+	font-size: 150%;
+	color:white;
+}
+
+
+
+#dog_dealbreakers {
+	background: #f85;
+}
+
+.formatting {
+	border-radius:10px;
+	
+	margin:0 auto 30px;
+	width: 80vw;
+	box-shadow: 5px 5px rgba(0,0,0,.25);
 }
