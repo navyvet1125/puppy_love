@@ -1,14 +1,19 @@
+/* The CSS is*/
 body {
 	background: url("../biscuits.jpg");
-	background-repeat: fixed;
+	background-attachment: fixed;
+	font: 20px "Helvetica", sans-serif;
+	cursor:crosshair;
 }
 
+/*	Styled the header and added styling 
+	for elemtents within the header*/
 #dog_header {
 	background: #caffed;
 	text-align: center;
-	
 }
 
+/*	Styled header elements*/
 #dog_header h1{
 	font-size: 350%;
 }
@@ -18,12 +23,24 @@ body {
 #dog_header p{
 	font-size: 150%;
 }
+#dog_header img{
+	width:50%;
+}
+/*  Added illusion of a hyperlink 
+	to the anchor tag in the header */
+#dog_header a{
+	text-decoration: underline;
+	color:purple;
+	cursor:pointer;
+}
 
+/*	Adds unique color for dog_likes article*/
 #dog_likes{
 	background: #8f5;
 }
 
-#dog_likes h2{
+/*	Styles the Header 2's for all of dog_section*/
+#dog_section h2{
 	text-decoration: underline;
 	font-size: 150%;
 	color:white;
@@ -35,10 +52,17 @@ body {
 	background: #f85;
 }
 
+/*Formatting class for the header and article sections*/
 .formatting {
 	border-radius:10px;
-	
 	margin:0 auto 30px;
 	width: 80vw;
 	box-shadow: 5px 5px rgba(0,0,0,.25);
+	padding: 25px 50px;
+}
+
+.emph{
+	font-weight: bold;
+	font-size: 120%;
+	border-bottom: 10px double black;
 }
