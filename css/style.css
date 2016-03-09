@@ -1,12 +1,13 @@
 /* The CSS is*/
 body {
+  font-family: 'Amatic SC', cursive;
 	background: url("../biscuits.jpg");
 	background-attachment: fixed;
-	font: 20px "Helvetica", sans-serif;
+	font-size: 22px;
 	cursor:crosshair;
 }
 
-/*	Styled the header and added styling 
+/*	Styled the header and added styling
 	for elemtents within the header*/
 #dog_header {
 	background: #caffed;
@@ -26,7 +27,7 @@ body {
 #dog_header img{
 	width:50%;
 }
-/*  Added illusion of a hyperlink 
+/*  Added illusion of a hyperlink
 	to the anchor tag in the header */
 #dog_header a{
 	text-decoration: underline;
@@ -54,7 +55,7 @@ body {
 
 /*Formatting class for the header and article sections*/
 .formatting {
-	border-radius:10px;
+	border-radius:5px;
 	margin:0 auto 30px;
 	width: 80vw;
 	box-shadow: 5px 5px rgba(0,0,0,.25);
